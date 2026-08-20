@@ -1,0 +1,29 @@
+# Employee payroll dictionary
+
+employees = {}
+
+# Add employee
+
+employees[emp_id] = {
+
+}
+
+"name": name,
+
+"basic": basic,
+
+"allowances": allowances
+
+# Calculate salary
+
+gross = basic + allowances
+
+pf = 0.12 * basic
+
+tax = calculate_tax(gross)
+
+net_salary = gross - pf - tax
+
+# Generate salary slip
+
+print("Net Salary:", net_salary)
